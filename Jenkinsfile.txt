@@ -7,7 +7,7 @@ pipeline
     stage ('print a msg')  //
      {
          steps
-          {sh echo hi I'm jekins}
+          {sh echo "hi I'm jekins"}
 
      
      }
